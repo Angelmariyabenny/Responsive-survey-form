@@ -1,0 +1,73 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RESPONSIVE SURVEY FORM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">RESPONSIVE SURVEY FORM</h1>
+    <p id="description">Kindly fill out this details</p>
+    <form id="survey-form">
+    <fieldset>
+     <label id="name-label" for="name">Enter Your Name:<input id="name" type="text" name="name" placeholder ="Full Name"required/></label>
+     <br><br> <label id="email-label" for="email">Enter Your Email:<input id="email" placeholder ="Valid mailID"required type="email" name="email"/></label>
+     <br><br> <label id="number-label" for="number">Age:<br><input type="number" placeholder ="Your Age" id="number" class="inline" name="number"  min="1" max="100" required/></label><br><br>
+     <select id="dropdown">
+       <option value=" ">Interested In ?</option>
+       <option value="1">Web Development</option>
+       <option value="2">Cyber Security</option>
+       <option value="3">Data Science</option>
+       <option value="4">Machine Learning</option>
+     </select>
+    <br><br><label for="Paid-Intern"><input value="1" type="radio" class="inline" name="buttons" checked/>Paid</label>
+    <br><label for="Stipend-Intern"><input value="2" type="radio" class="inline" name="buttons"/>Stipend</label>
+
+    <br><br><p>Where are you panning fot internship?
+<br><label><input type="checkbox" value="1"/>Canada🍁 </label>
+<br><label><input type="checkbox" value="2"/>Australia 🌏 </label>
+<br><label><input type="checkbox" value="3"/>Seoul,Korea</label>
+<br><label><input type="checkbox" value="4"/>Japan 🗾 </label>
+<br><label><input type="checkbox" value="5"/>UAE <label>
+<br><br><label for="bio">Any queries..</label>
+<textarea id="bio" placeholder="I have a Question..."></textarea>
+<br><br>
+<br><br>
+<br><br><label for="submit"> <input type="submit" id="submit" /></label>
+</form>
+    </fieldset>
+ 
+   
+
+** end of undefined **
+
+** start of undefined **
+
+form{
+  width:70vw;
+  height: 100vh;
+
+    max-width: 500px;
+min-width: 300px;margin: 0 auto;padding-bottom: 2em;
+}
+body {
+  width: 100%;
+  height: 100vh;margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+h1,description{
+  margin: 1em auto;
+  text-align: center;
+}#description {
+    color: #666;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+** end of undefined **
+
